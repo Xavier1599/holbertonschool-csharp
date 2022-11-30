@@ -1,7 +1,18 @@
-﻿for (char i = 'a'; i <= 'z'; i++)
+﻿using System;
+
+namespace _3_print_alphabt
 {
-    if (i != 'e' && i != 'q')
+    class Program
     {
-        Console.Write(i);
+        static void Main(string[] args)
+        {
+            for (char i = 'a'; i <= 'z'; i++)
+            {
+                if (i != 'e' && i != 'q')
+                {
+                    Console.Write (i);
+                }
+            }
+        }
     }
 }
