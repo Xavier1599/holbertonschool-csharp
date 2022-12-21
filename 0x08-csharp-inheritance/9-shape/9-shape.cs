@@ -80,7 +80,7 @@ class Square : Rectangle
             }
             size = value;
             Width = size;
-            Height = size
+            Height = size;
         }
     }
     ///<summary> public property </summary>
