@@ -26,7 +26,6 @@ class Rectangle : Shape
             if (value < 0)
             {
                 throw new ArgumentException("Width must be greater than or equal to 0");
-            }
             width = value;
         }
     }
@@ -42,7 +41,7 @@ class Rectangle : Shape
         {
             if (value < 0)
             {
-                throw new ArgumentException("Height must be grater than or equal to 0");
+               throw new ArgumentException("Height must be greater than or equal to 0");
             }
             height = value;
         }
@@ -56,6 +55,6 @@ class Rectangle : Shape
     ///<summary> public property </summary>
     public override string ToString()
     {
-        return string.Format("[Rectangle] {0} / {1}", width,height);
+        eturn string.Format("[Rectangle] {0} / {1}", width, height);
     }
 }
