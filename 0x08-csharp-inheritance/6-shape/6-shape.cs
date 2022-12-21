@@ -42,7 +42,7 @@ class Rectangle : Shape
         {
             if (value < 0)
             {
-                throw new ArgumentException("Height must be grater than or equal to 0");
+                throw new ArgumentException("Height must be greater than or equal to 0");
             }
             height = value;
         }
